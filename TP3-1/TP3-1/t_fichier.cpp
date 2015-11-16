@@ -17,10 +17,10 @@ t_fichier nouveau_fichier(int nb_paquets, const char id[MAX_CAR_ID])
 {
 	int i;
 
-	//le titre du tableau crée est nouveau_fichier
+	//Le titre du tableau crée est nouveau_fichier
 	t_fichier nouveau_fichier;
 
-	//allocation du nombre de paquets selon le paramètre reçu
+	//Allocation du nombre de paquets selon le paramètre reçu
 	nouveau_fichier.tab = (t_paquet**)malloc(nb_paquets * sizeof(char*));
 
 
@@ -35,7 +35,6 @@ t_fichier nouveau_fichier(int nb_paquets, const char id[MAX_CAR_ID])
 	nouveau_fichier.nb_paquets = nb_paquets;
 	nouveau_fichier.id[MAX_CAR_ID] = id[MAX_CAR_ID];
 
-	// On retourne la carte prospection de la taille de 
-	//"taille_ligne" par "taille colone
+	// On retourne le nouveau fichier
 	return nouveau_fichier;
 }
