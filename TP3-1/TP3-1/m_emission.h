@@ -4,7 +4,7 @@
 /* Le module offre un type et deux  fonctions :
 
     La fonction d'intialisation qui prend les noms de fichier dans un fichier texte
-	dont le nom ets fourni.
+	dont le nom est fourni.
 	void init_emission(const char* nom_fic);
 
 	une  fonction pour émettre un paquet, le paquet obtenu peut provenir 
