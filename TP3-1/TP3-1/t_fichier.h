@@ -3,6 +3,7 @@
 
 #include "constantes.h"
 #include "t_paquet.h"
+#include <stdlib.h>
 
 /*
 * Représentation  : Un fichier a son tableau  de paquets* et le nombre d'octets actuellement 
@@ -13,6 +14,7 @@ typedef struct
 	//Tableau qui contient les paquets
 	 const t_paquet** tab;
 
+	 //Copie du nom de fichier à reproduire
 	 char id[MAX_CAR_ID];
 
 	//Nombre de paquets du fichier
