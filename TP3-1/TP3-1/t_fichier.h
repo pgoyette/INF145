@@ -4,6 +4,7 @@
 #include "constantes.h"
 #include "t_paquet.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /*
 * Représentation  : Un fichier a son tableau  de paquets* et le nombre d'octets actuellement 
