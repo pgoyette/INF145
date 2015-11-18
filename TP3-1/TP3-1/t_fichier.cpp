@@ -18,8 +18,6 @@
 */
 t_fichier nouveau_fichier(int nb_paquets, const char id[MAX_CAR_ID])
 {
-	int i;
-
 	//Le titre du tableau crée est nouveau_fichier
 	t_fichier nouveau_fichier;
 
