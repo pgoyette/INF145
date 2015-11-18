@@ -24,3 +24,9 @@
 
 //Fichier de stats apres une communication
 #define NOM_FICHIER "fichiers_a_reconstituer.txt"
+
+//Nombre de paquets à écrire dans le fichier à chaque itération
+#define NB_PAQUET_ECRITURE 1
+
+//Valeur de recherche dans le tableau
+#define INDICE_VERIF 0
